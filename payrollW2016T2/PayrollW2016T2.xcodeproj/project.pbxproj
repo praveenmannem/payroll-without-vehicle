@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169796CE1C63A0BF002E93A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169796CD1C63A0BF002E93A3 /* main.swift */; };
+		169796D51C63A12B002E93A3 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169796D41C63A12B002E93A3 /* Employee.swift */; };
+		169796D71C63AE4A002E93A3 /* ParttTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169796D61C63AE4A002E93A3 /* ParttTime.swift */; };
+		169796D91C63B41B002E93A3 /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169796D81C63B41B002E93A3 /* FullTime.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		169796C81C63A0BF002E93A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		169796CA1C63A0BF002E93A3 /* PayrollW2016T2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PayrollW2016T2; sourceTree = BUILT_PRODUCTS_DIR; };
+		169796CD1C63A0BF002E93A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		169796D41C63A12B002E93A3 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		169796D61C63AE4A002E93A3 /* ParttTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParttTime.swift; path = ../ParttTime.swift; sourceTree = "<group>"; };
+		169796D81C63B41B002E93A3 /* FullTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullTime.swift; path = ../FullTime.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169796C71C63A0BF002E93A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169796C11C63A0BF002E93A3 = {
+			isa = PBXGroup;
+			children = (
+				169796CC1C63A0BF002E93A3 /* PayrollW2016T2 */,
+				169796CB1C63A0BF002E93A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169796CB1C63A0BF002E93A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169796CA1C63A0BF002E93A3 /* PayrollW2016T2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169796CC1C63A0BF002E93A3 /* PayrollW2016T2 */ = {
+			isa = PBXGroup;
+			children = (
+				169796D81C63B41B002E93A3 /* FullTime.swift */,
+				169796D61C63AE4A002E93A3 /* ParttTime.swift */,
+				169796CD1C63A0BF002E93A3 /* main.swift */,
+				169796D41C63A12B002E93A3 /* Employee.swift */,
+			);
+			path = PayrollW2016T2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169796C91C63A0BF002E93A3 /* PayrollW2016T2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169796D11C63A0BF002E93A3 /* Build configuration list for PBXNativeTarget "PayrollW2016T2" */;
+			buildPhases = (
+				169796C61C63A0BF002E93A3 /* Sources */,
+				169796C71C63A0BF002E93A3 /* Frameworks */,
+				169796C81C63A0BF002E93A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayrollW2016T2;
+			productName = PayrollW2016T2;
+			productReference = 169796CA1C63A0BF002E93A3 /* PayrollW2016T2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169796C21C63A0BF002E93A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Marc Bueno Inc";
+				TargetAttributes = {
+					169796C91C63A0BF002E93A3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 169796C51C63A0BF002E93A3 /* Build configuration list for PBXProject "PayrollW2016T2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 169796C11C63A0BF002E93A3;
+			productRefGroup = 169796CB1C63A0BF002E93A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169796C91C63A0BF002E93A3 /* PayrollW2016T2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169796C61C63A0BF002E93A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169796CE1C63A0BF002E93A3 /* main.swift in Sources */,
+				169796D51C63A12B002E93A3 /* Employee.swift in Sources */,
+				169796D71C63AE4A002E93A3 /* ParttTime.swift in Sources */,
+				169796D91C63B41B002E93A3 /* FullTime.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		169796CF1C63A0BF002E93A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		169796D01C63A0BF002E93A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		169796D21C63A0BF002E93A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		169796D31C63A0BF002E93A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169796C51C63A0BF002E93A3 /* Build configuration list for PBXProject "PayrollW2016T2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169796CF1C63A0BF002E93A3 /* Debug */,
+				169796D01C63A0BF002E93A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169796D11C63A0BF002E93A3 /* Build configuration list for PBXNativeTarget "PayrollW2016T2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169796D21C63A0BF002E93A3 /* Debug */,
+				169796D31C63A0BF002E93A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169796C21C63A0BF002E93A3 /* Project object */;
+}
